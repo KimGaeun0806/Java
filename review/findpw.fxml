@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="288.0" prefWidth="296.0" style="-fx-background-color: ffffff;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="review.FindpwController">
+   <children>
+      <TextField fx:id="findid" layoutX="26.0" layoutY="184.0" promptText="ENTER ID" />
+      <ImageView fitHeight="154.0" fitWidth="296.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../이미지/고양이의%20보은10.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="btnfind" layoutX="200.0" layoutY="185.0" mnemonicParsing="false" onAction="#findAction" prefHeight="49.0" prefWidth="67.0" text="FIND" />
+      <Label layoutX="120.0" layoutY="161.0" text="FIND PW">
+         <font>
+            <Font name="Arial" size="13.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnback" layoutX="210.0" layoutY="244.0" mnemonicParsing="false" onAction="#back" text="BACK" />
+      <TextField fx:id="findname" layoutX="26.0" layoutY="216.0" promptText="ENTER NAME" />
+   </children>
+</AnchorPane>
